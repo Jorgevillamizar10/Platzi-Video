@@ -1,0 +1,83 @@
+
+        body{
+            background: #8F57FD;
+            margin: 0;
+            font-family: 'Muli', sans-serif;
+        }
+
+        * {
+          box-sizing: border-box;
+        }
+
+        /* Estilos Cabecera */
+
+        .header{
+            width: 100%;
+            height: 100px;
+            /* background: #21C08B; */
+            background: #8F57FD;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            top: 0;
+        }
+
+        .header_img{
+             width: 200px; 
+            margin-top: 10px;
+            margin-left: 5px;
+        }
+
+        .header_menu{
+            margin-right: 30px;
+        }
+
+        .header_menu:hover ul, ul:hover{
+            /* para que me salga el menu cuando hago hover sobre el */
+            display: block;
+        }
+
+        .header_menu-perfil{
+            margin-right: 8px;
+            /* width: 40px; */
+            display: flex;
+            align-items: center;
+        }
+
+        .header_menu-perfil img{
+            margin-top: 15px;
+            /* margin-right: 8px; */
+            width: 50px;
+            align-items: center;
+            border-radius: 100%;
+            object-fit: cover;
+        }
+
+        .header_menu-perfil p{
+            margin: 0px;
+            color: white;
+        }
+
+        .header_menu ul{
+            display: none;
+            /* para los elementos de la lista y el diseño */
+            list-style: none;
+            padding: 0px;
+            position: absolute;
+            width: 100px;
+            text-align: right;
+            margin:  0px 0px 0px -14px;
+        }
+
+        .header_menu li{
+            margin: 10px 0px;
+        }
+
+        .header_menu li a{
+            color: white;
+            text-decoration: none;
+        }
+
+        .header_menu li a:hover{
+            text-decoration: underline;
+        }

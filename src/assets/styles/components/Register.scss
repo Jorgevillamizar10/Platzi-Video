@@ -1,0 +1,62 @@
+.register{
+    background: linear-gradient(#21C08B,#AB88FF);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 30px;
+    min-height: calc(100vh - 200px);
+}
+
+.register__container{
+    /* para que se me vea transparente */
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid white;
+    border-radius: 40px;
+    color: white;
+    padding: 60px 68px 40px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.register__container h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+
+.register__container-form{
+    /* para que mis elementos se alinien */
+    display: flex;
+    flex-direction: column;
+}
+
+.register__container a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Muli', sans-serif;
+}
+
+.register__container a:hover{
+    text-decoration: underline;
+}
+
+.buttom{
+    background-color: rgba(255,255,255,0.3);
+    border: none;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Muli',sans-serif;
+    height: 50px;
+    letter-spacing: 1px;
+    margin: 10px 0px;
+}

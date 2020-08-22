@@ -1,0 +1,82 @@
+.login{
+    /* linear-gradient -> me crea un efecto de ir de un color a otro */
+    background: linear-gradient(#21C08B,#AB88FF);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* para que los elementos se me ubiquen de arriba hacia abajo */
+    flex-direction: column;
+    padding: 0px 30px;
+    min-height: calc(100vh - 200px);
+}
+
+.login_container{
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid white;
+    border-radius: 40px;
+    color: white;
+    padding: 60px 68px 40px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.login_container-form{
+    /* para que mis elementos se alinien */
+    display: flex;
+    flex-direction: column;
+}
+
+.login_container-form label{
+    font-size: 14px;
+}
+
+.login_container-remember{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.login_container-remember a{
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.login_container-remember a:hover{
+    text-decoration: underline;
+}
+
+/* el operador significa que agarre todos los div de ese container */
+.login_container-socialmedia > div{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.login_container-socialmedia > div > img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.login_container-registro{
+    font-size: 14px;
+}
+
+.login_container-registro a{
+    font-size: 16px;
+    /*variables en css*/
+    color:white;
+    /* negrita */
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.login_container-registro a:hover{
+    text-decoration: underline;
+}
